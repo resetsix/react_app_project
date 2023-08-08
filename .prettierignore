@@ -1,0 +1,60 @@
+# Ignore all files in the node_modules directory
+node_modules
+
+# Ignore all files in the build directory
+build
+
+# Ignore all files in the dist directory
+dist
+
+# Ignore all files in the coverage directory
+coverage
+
+# Ignore all files in the vendor directory
+vendor
+
+# Ignore all files in the tmp directory
+tmp
+
+# Ignore all files in the log directory
+log
+
+# Ignore all binary files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.tif
+*.tiff
+*.pdf
+*.bmp
+*.svg
+
+# Ignore all generated files
+*.min.js
+*.min.css
+*.map
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime*
+*.swo
+*.swp
+*.tmproj
+*.tmp
+.DS_Store
+
+# Ignore configuration files
+*.config.js
+*.env
+.env.local
+.env.development
+.env.production
+
+# Ignore lockfiles and manifests
+package-lock.json
+yarn.lock
+composer.lock
+Gemfile.lock

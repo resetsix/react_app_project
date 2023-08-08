@@ -1,0 +1,25 @@
+{
+  "printWidth": 140,
+  "eslintIntegration": true,
+  "stylelintIntegration": true,
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "files.insertFinalNewline": true,
+  "jsxBracketSameLine": false,
+  "useTabs": false,
+  "endOfLine": "auto",
+  "ignorePath": ".gnore",
+  "proseWrap": "never",
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
